@@ -1,4 +1,4 @@
-# Realtime-Facical-Recognition-Attendance-Based-Employee-Management-System
+# Realtime-Facial-Recognition-Attendance-Based-Employee-Management-System
 # This is a Desktop application that has been built using Java and Python. As the name suggests, the application allows employees to record their attendance based on their live CCTV feed from a distance and also facilitates with the tradtitonal management system features.
 
 # Project Title: Real Time Facial Recognition Attendance and Employee Management System.
