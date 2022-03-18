@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1398.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.updateProjects">
+    <children>
+        <!--        <Separator layoutY="68.0" prefHeight="3.0" prefWidth="1335.0" />-->
+        <!--        <Separator layoutX="173.0" orientation="VERTICAL" prefHeight="516.0" prefWidth="6.0" />-->
+        <Label alignment="TOP_LEFT" layoutX="12.0" layoutY="7.0" prefHeight="30.0" prefWidth="528.0" text="Update Project Info:" textFill="#dd0303">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <!--        <Separator layoutY="513.0" prefHeight="3.0" prefWidth="176.0" />-->
+        <!--        <Label fx:id="welcomeLabel" layoutX="173.0" layoutY="16.0" prefHeight="21.0" prefWidth="961.0">-->
+        <!--            <font>-->
+        <!--                <Font name="System Bold" size="18.0" />-->
+        <!--            </font>-->
+        <!--        </Label>-->
+        <!--        <Button fx:id="home" alignment="TOP_CENTER" layoutX="1221.0" layoutY="12.0" mnemonicParsing="false" onAction="#backToProfileStage" prefHeight="26.0" prefWidth="163.0" text="Back To Profile">-->
+        <!--            <font>-->
+        <!--                <Font name="System Bold" size="13.0" />-->
+        <!--            </font>-->
+        <!--        </Button>-->
+        <!--        <Label layoutX="173.0" layoutY="70.0" prefHeight="38.0" prefWidth="231.0" text="  Personal Info:" textFill="#cc0a0a">-->
+        <!--            <font>-->
+        <!--                <Font name="System Bold Italic" size="24.0" />-->
+        <!--            </font>-->
+        <!--        </Label>-->
+        <Label layoutX="200.0" layoutY="100.0" prefHeight="38.0" prefWidth="76.0" text="Name: ">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="pName" layoutX="285.0" layoutY="100.0" prefHeight="38.0" prefWidth="772.0" promptText="Project Name">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </TextField>
+        <Label fx:id="employeeName11" layoutX="200.0" layoutY="200.0" prefHeight="38.0" prefWidth="170.0" text="Project Id:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName12" layoutX="200.0" layoutY="300.0" prefHeight="38.0" prefWidth="170.0" text="Manager Id:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="pManId" layoutX="356.0" layoutY="300.0" prefHeight="38.0" prefWidth="406.0" promptText="Project Manager Id ">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </TextField>
+        <Label fx:id="employeeName122" layoutX="200.0" layoutY="400.0" prefHeight="38.0" prefWidth="294.0" text="Associated Department Id:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="deptId" layoutX="493.0" layoutY="400.0" prefHeight="38.0" prefWidth="516.0" promptText="Associated Department Id">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </TextField>
+        <!--            <font>-->
+        <!--                <Font name="System Bold Italic" size="19.0" />-->
+        <!--            </font>-->
+
+        <Label fx:id="employeeName12212" layoutX="200.0" layoutY="500.0" prefHeight="38.0" prefWidth="170.0" text="Allocated Time:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Button fx:id="Add" layoutX="632.0" layoutY="719.0" mnemonicParsing="false" onAction="#updateProjects" prefHeight="45.0" prefWidth="135.0" text="Update">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Button>
+        <Label fx:id="pId" layoutX="319.0" layoutY="200.0" prefHeight="38.0" prefWidth="163.0" textFill="#e40404">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Button fx:id="home" alignment="TOP_CENTER" layoutX="1231.0" layoutY="22.0" mnemonicParsing="false" onAction="#goBackToProfile" prefHeight="26.0" prefWidth="163.0" text="Back To Profile">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+        <Label fx:id="employeeId12131111" layoutX="373.0" layoutY="814.0" prefHeight="38.0" prefWidth="219.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName122121" layoutX="186.0" layoutY="600.0" prefHeight="38.0" prefWidth="198.0" text="Completion Time:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="cTime" layoutX="374.0" layoutY="592.0" prefHeight="38.0" prefWidth="516.0" promptText="Completion Time">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </TextField>
+        <Label fx:id="message" alignment="CENTER" layoutX="-1.0" layoutY="826.0" prefHeight="119.0" prefWidth="1323.0" textFill="RED">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+      <TextField fx:id="aTime" layoutX="413.0" layoutY="500.0" prefHeight="38.0" prefWidth="516.0" promptText="Allocated Time">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </TextField>
+
+    </children>
+</AnchorPane>

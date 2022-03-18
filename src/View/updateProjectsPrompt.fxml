@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="100.0" maxWidth="400.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.updateProjectsPrompt">
+    <children>
+        <Label fx:id="messageLabel" prefHeight="100.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="updatedId" layoutX="18.0" layoutY="36.0" prefHeight="33.0" prefWidth="461.0" promptText="Project Id">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+        <Button layoutX="208.0" layoutY="83.0" mnemonicParsing="false" onAction="#updateProjects" prefHeight="26.0" prefWidth="85.0" text="Update">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+        <Label fx:id="errorMessage" layoutX="20.0" layoutY="120.0" prefHeight="26.0" prefWidth="461.0" />
+        <Label fx:id="errorMessage1" layoutX="20.0" layoutY="14.0" prefHeight="11.0" prefWidth="461.0" text="Project Id:">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font></Label>
+    </children>
+</AnchorPane>

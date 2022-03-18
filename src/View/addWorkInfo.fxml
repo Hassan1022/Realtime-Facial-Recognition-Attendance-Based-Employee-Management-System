@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="982.0" prefWidth="1398.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.addWorkInfo">
+    <children>
+        <!--        <Separator layoutY="68.0" prefHeight="3.0" prefWidth="1335.0" />-->
+        <!--        <Separator layoutX="173.0" orientation="VERTICAL" prefHeight="516.0" prefWidth="6.0" />-->
+        <Label alignment="TOP_LEFT" layoutX="12.0" layoutY="7.0" prefHeight="30.0" prefWidth="528.0" text="Add New Employee Work Info:" textFill="#dd0303">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <!--        <Separator layoutY="513.0" prefHeight="3.0" prefWidth="176.0" />-->
+        <!--        <Label fx:id="welcomeLabel" layoutX="173.0" layoutY="16.0" prefHeight="21.0" prefWidth="961.0">-->
+        <!--            <font>-->
+        <!--                <Font name="System Bold" size="18.0" />-->
+        <!--            </font>-->
+        <!--        </Label>-->
+        <!--        <Button fx:id="home" alignment="TOP_CENTER" layoutX="1221.0" layoutY="12.0" mnemonicParsing="false" onAction="#backToProfileStage" prefHeight="26.0" prefWidth="163.0" text="Back To Profile">-->
+        <!--            <font>-->
+        <!--                <Font name="System Bold" size="13.0" />-->
+        <!--            </font>-->
+        <!--        </Button>-->
+        <!--        <Label layoutX="173.0" layoutY="70.0" prefHeight="38.0" prefWidth="231.0" text="  Personal Info:" textFill="#cc0a0a">-->
+        <!--            <font>-->
+        <!--                <Font name="System Bold Italic" size="24.0" />-->
+        <!--            </font>-->
+        <!--        </Label>-->
+        <Label layoutX="204.0" layoutY="100.0" prefHeight="38.0" prefWidth="163.0" text="Employee Id">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="employeeId" layoutX="356.0" layoutY="100.0" prefHeight="38.0" prefWidth="406.0" promptText="Employee Id">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </TextField>
+        <Label fx:id="employeeName11" layoutX="200.0" layoutY="200.0" prefHeight="38.0" prefWidth="170.0" text="Project Id:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName12" layoutX="200.0" layoutY="300.0" prefHeight="38.0" prefWidth="170.0" text="Hours Worked:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="hours" layoutX="367.0" layoutY="300.0" prefHeight="38.0" prefWidth="406.0" promptText="Hours Worked">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </TextField>
+        <Label fx:id="employeeName122" layoutX="200.0" layoutY="400.0" prefHeight="38.0" prefWidth="243.0" text="Performance Ratings:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <TextField fx:id="pRatings" layoutX="441.0" layoutY="400.0" prefHeight="38.0" prefWidth="516.0" promptText="Performance Ratings">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </TextField>
+        <Button fx:id="Add" layoutX="627.0" layoutY="550.0" mnemonicParsing="false" onAction="#addWorkInfo" prefHeight="45.0" prefWidth="135.0" text="Add">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Button>
+        <Button fx:id="home" alignment="TOP_CENTER" layoutX="1231.0" layoutY="22.0" mnemonicParsing="false" onAction="#goBackToProfile" prefHeight="26.0" prefWidth="163.0" text="Back To Profile">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+        <Label fx:id="employeeId12131111" layoutX="373.0" layoutY="814.0" prefHeight="38.0" prefWidth="219.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="message" alignment="CENTER" layoutY="686.0" prefHeight="119.0" prefWidth="1323.0" textFill="RED">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+      <DatePicker fx:id="startDate" editable="false" layoutX="883.0" layoutY="93.0" prefHeight="45.0" prefWidth="327.0" promptText="Project Start Date" />
+      <TextField fx:id="pId" layoutX="356.0" layoutY="200.0" prefHeight="38.0" prefWidth="406.0" promptText="Project Id">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </TextField>
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1435.0" prefWidth="1398.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.user">
+    <children>
+        <Separator layoutY="68.0" prefHeight="3.0" prefWidth="1335.0" />
+        <Label alignment="CENTER" layoutX="14.0" layoutY="24.0" prefHeight="16.0" prefWidth="135.0" text="Profile" textFill="#dd0303">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="welcomeLabel" layoutX="190.0" layoutY="16.0" prefHeight="21.0" prefWidth="944.0" textFill="#f50000">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="signOut" layoutX="1149.0" layoutY="14.0" mnemonicParsing="false" onAction="#login" prefHeight="26.0" prefWidth="83.0" text="Sign out">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+        <Label layoutX="185.0" layoutY="70.0" prefHeight="38.0" prefWidth="231.0" text="  Personal Info:" textFill="#cc0a0a">
+            <font>
+                <Font name="System Bold Italic" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="200.0" layoutY="120.0" prefHeight="38.0" prefWidth="76.0" text="Name: ">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName" layoutX="300.0" layoutY="120.0" prefHeight="38.0" prefWidth="772.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName1" layoutX="200.0" layoutY="182.0" prefHeight="38.0" prefWidth="30.0" text="Id:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeId" layoutX="242.0" layoutY="182.0" prefHeight="38.0" prefWidth="163.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="employeePhoto" fitHeight="150.0" fitWidth="200.0" layoutX="1132.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true" />
+        <Label fx:id="employeeName11" layoutX="550.0" layoutY="182.0" prefHeight="38.0" prefWidth="60.0" text="Age:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="age" layoutX="610.0" layoutY="182.0" prefHeight="38.0" prefWidth="163.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName111" layoutX="850.0" layoutY="182.0" prefHeight="38.0" prefWidth="99.0" text="Gender:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="gender" layoutX="950.0" layoutY="182.0" prefHeight="38.0" prefWidth="135.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName12" layoutX="200.0" layoutY="251.0" prefHeight="38.0" prefWidth="108.0" text="Phone:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="phone" layoutX="300.0" layoutY="251.0" prefHeight="38.0" prefWidth="406.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName121" layoutX="850.0" layoutY="251.0" prefHeight="38.0" prefWidth="83.0" text="Email:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="email" layoutX="926.0" layoutY="251.0" prefHeight="38.0" prefWidth="386.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName122" layoutX="200.0" layoutY="332.0" prefHeight="38.0" prefWidth="99.0" text="Address:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="address" layoutX="300.0" layoutY="332.0" prefHeight="38.0" prefWidth="988.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName1221" layoutX="200.0" layoutY="393.0" prefHeight="38.0" prefWidth="60.0" text="N Id:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="nId" layoutX="261.0" layoutY="393.0" prefHeight="38.0" prefWidth="451.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName12211" layoutX="850.0" layoutY="393.0" prefHeight="38.0" prefWidth="76.0" text="DOB:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="dob" layoutX="911.0" layoutY="393.0" prefHeight="38.0" prefWidth="362.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName12212" layoutX="200.0" layoutY="482.0" prefHeight="38.0" prefWidth="99.0" text="Relative:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeId1212" layoutX="300.0" layoutY="482.0" prefHeight="38.0" prefWidth="451.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="relativeName" layoutX="300.0" layoutY="482.0" prefHeight="38.0" prefWidth="451.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName122111" layoutX="850.0" layoutY="482.0" prefHeight="38.0" prefWidth="108.0" text="Relation:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="relation" layoutX="963.0" layoutY="482.0" prefHeight="38.0" prefWidth="349.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeName122121" layoutX="200.0" layoutY="550.0" prefHeight="38.0" prefWidth="99.0" text="R Ph:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="relativePh" layoutX="300.0" layoutY="541.0" prefHeight="38.0" prefWidth="451.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="185.0" layoutY="629.0" prefHeight="38.0" prefWidth="176.0" text=" Work Info:" textFill="#c90000">
+            <font>
+                <Font name="System Bold Italic" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="200.0" layoutY="689.0" prefHeight="38.0" prefWidth="176.0" text="Department Id:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="relativePhone" layoutX="278.0" layoutY="550.0" prefHeight="38.0" prefWidth="451.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="employeeId1213111" layoutX="400.0" layoutY="689.0" prefHeight="38.0" prefWidth="219.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="845.0" layoutY="689.0" prefHeight="38.0" prefWidth="152.0" text="Designation:">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="departmentId" layoutX="377.0" layoutY="689.0" prefHeight="38.0" prefWidth="219.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="designation" layoutX="1000.0" layoutY="689.0" prefHeight="38.0" prefWidth="307.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="200.0" layoutY="751.0" prefHeight="38.0" prefWidth="83.0" text="Salary: ">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="salary" layoutX="291.0" layoutY="751.0" prefHeight="38.0" prefWidth="219.0">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="200.0" layoutY="829.0" prefHeight="96.0" prefWidth="231.0" text="Present this month:" textFill="#c60000" wrapText="true">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="absentLm" layoutX="431.0" layoutY="858.0" prefHeight="38.0" prefWidth="219.0" textFill="#d02020">
+            <font>
+                <Font name="System Bold Italic" size="19.0" />
+            </font>
+        </Label>
+        <Separator layoutX="1333.0" layoutY="-70.0" orientation="VERTICAL" prefHeight="140.0" prefWidth="6.0" />
+        <Button fx:id="attendance111111" layoutX="7.0" layoutY="96.0" mnemonicParsing="false" onAction="#gotoWorkInfo" prefHeight="48.0" prefWidth="176.0" text="View Work Info">
+            <font>
+                <Font name="System Bold Italic" size="16.0" />
+            </font>
+        </Button>
+        <Separator layoutX="187.0" layoutY="69.0" orientation="VERTICAL" prefHeight="808.0" prefWidth="6.0" />
+        <Separator layoutY="876.0" prefHeight="3.0" prefWidth="190.0" />
+      <Button fx:id="attendance1111111" layoutX="7.0" layoutY="196.0" mnemonicParsing="false" onAction="#gotoAttendanceHistory" prefHeight="48.0" prefWidth="176.0" text="View Attendance">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
